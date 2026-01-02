@@ -476,7 +476,6 @@ with tab2:
         }
         
         st.bar_chart(chart_data, x='Length', y='Count')
-        
     else:
         st.info("👈 Enter text in the 'Text Analysis' tab to see advanced metrics")
 
@@ -498,4 +497,4 @@ st.markdown("""
         <p>Built with ❤️ using Streamlit</p>
         <p style='font-size: 0.8rem;'>AI-powered text analysis tool</p>
     </div>
-""", unsafe_allow_html=True
+""", unsafe_allow_html=True)
